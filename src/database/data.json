@@ -1,0 +1,185 @@
+{
+  "AdminLogin": [
+    {
+      "id": "4dba",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "eb82",
+      "name": "adith",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "6aba",
+      "name": "zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "zubair"
+    },
+    {
+      "id": "472e",
+      "name": "Mohamed Zubair",
+      "phone": "86007893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "zubair"
+    },
+    {
+      "id": "5a2d",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "zubair"
+    },
+    {
+      "id": "9d73",
+      "name": "Mohamed Zubair",
+      "phone": "0987654322",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "7340",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "8e76",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "e616",
+      "name": "naveen",
+      "phone": "1234567890",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "245"
+    },
+    {
+      "id": "4ef1",
+      "name": "priya",
+      "phone": "987654320",
+      "email": "priya@gmail.com",
+      "password": "priya23"
+    },
+    {
+      "id": "ab84",
+      "name": "Adith K",
+      "phone": "07558186205",
+      "email": "myselfadith.k@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "UserLogin": [
+    {
+      "id": "d66f",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "0b21",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "d3b5",
+      "name": "adith",
+      "phone": "0987654322",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "ce0b",
+      "name": "",
+      "phone": "",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "zubair"
+    },
+    {
+      "id": "c934",
+      "name": "Mohamed Zubair",
+      "phone": "8610071893",
+      "email": "mohamedzubair001@gmail.com",
+      "password": "ZUQBIAR"
+    },
+    {
+      "id": "62ad",
+      "name": "Adith K",
+      "phone": "0755818620",
+      "email": "myselfadith.k@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "49db",
+      "brand": "Adidas",
+      "categories": "Toys & Games",
+      "name": "toy",
+      "price": "222",
+      "stock": "3",
+      "pictures": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScZnY86c1i2j5Mi__sAnS6UbuXx8WQbJRUCQ&s"
+    },
+    {
+      "id": "2d63",
+      "brand": "LG",
+      "categories": "Electronics",
+      "name": "TV",
+      "price": "25000",
+      "stock": "30",
+      "pictures": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKO8CSEYkNNnVWH1t3-XrTnj2qgcDFeXq7Dg&s"
+    },
+    {
+      "id": "6ae3",
+      "brand": "HP",
+      "categories": "Electronics",
+      "name": "vitus",
+      "price": "60000",
+      "stock": "23",
+      "pictures": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUG3bTl4M2d8cGbNbo_yxa23uZMqX9cZwPg&s"
+    },
+    {
+      "brand": "Sony",
+      "categories": "Electronics",
+      "name": "fridge",
+      "price": "32000",
+      "stock": "32",
+      "pictures": "https://imgs.search.brave.com/fBYoqOu_nse_NjrM92eKcSgCxYRdXmM2APCVYemTMbw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIzLzcv/MzIxODQyMjQ5L1FO/L1NML0RZLzE4Mjg2/OTU1OS9zb255LWZy/aWRnZXMtMTI1eDEy/NS53ZWJw",
+      "id": "fa03"
+    }
+  ],
+  "Card": [
+    {
+      "id": "097a",
+      "brand": "Samsung",
+      "categories": "Mobile phones",
+      "name": "s25 ultra",
+      "price": "100000",
+      "stock": "20",
+      "pictures": "https://images.samsung.com/my/smartphones/galaxy-s25-ultra/buy/product_color_silverBlue_MO.png?imbypass=true",
+      "quantity": 2
+    },
+    {
+      "id": "2d63",
+      "brand": "LG",
+      "categories": "Electronics",
+      "name": "TV",
+      "price": "25000",
+      "stock": "30",
+      "pictures": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKO8CSEYkNNnVWH1t3-XrTnj2qgcDFeXq7Dg&s",
+      "quantity": 3
+    }
+  ]
+}

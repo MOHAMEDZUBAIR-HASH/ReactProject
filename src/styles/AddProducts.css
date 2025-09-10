@@ -1,0 +1,118 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  color: #f5f7fa;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  gap: 1.5rem 2rem;
+}
+
+/* Each label + input/select grouped together */
+form label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #cfd8dc;
+}
+
+/* Selects & Inputs */
+form input,
+form select {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f5f7fa;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+form input::placeholder {
+  color: #9aa5b1;
+}
+
+form select {
+  cursor: pointer;
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4db6ff;
+  box-shadow: 0 0 0 3px rgba(77, 182, 255, 0.3);
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Make labels stay with inputs in the same grid cell */
+form label,
+form input,
+form select {
+  grid-column: span 1;
+}
+
+form label + input,
+form label + select {
+  margin-top: -0.6rem; /* keep spacing tidy */
+}
+
+/* Button styling */
+form button {
+  grid-column: span 2; /* button spans full width row */
+  margin-top: 0.5rem;
+  background: linear-gradient(135deg, #4db6ff, #2196f3);
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+form button:hover {
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  box-shadow: 0 8px 16px rgba(33, 150, 243, 0.4);
+}
+
+form button:active {
+  transform: translateY(1px);
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+
+  form button {
+    grid-column: span 1;
+    width: 100%;
+  }
+}
+
+
+

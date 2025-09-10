@@ -1,0 +1,131 @@
+/* Main product container */
+.ViewProduct {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Image box */
+.ViewProduct .img {
+  flex: 0 0 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.ViewProduct .img img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Product details */
+.ViewProduct .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ViewProduct .details h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  color: #111;
+}
+
+.ViewProduct .details span {
+  font-size: 16px;
+  color: #565959;
+}
+
+.ViewProduct .details strike {
+  color: #9d9d9d;
+}
+
+.ViewProduct .details big {
+  color: #b12704;
+  font-weight: bold;
+}
+
+/* Quantity buttons */
+.qty-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.qty-buttons button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f0f2f2;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.qty-buttons button:hover {
+  background: #e6e6e6;
+}
+
+/* Amazon-style buttons */
+.ViewProduct button {
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Buy Now = Amazon orange */
+.ViewProduct button:nth-of-type(1) {
+  background: #ffa41c;
+  color: #111;
+}
+
+.ViewProduct button:nth-of-type(1):hover {
+  background: #f08804;
+}
+
+/* Add to Cart = Amazon yellow */
+.ViewProduct button:nth-of-type(2) {
+  background: #ffd814;
+  color: #111;
+}
+
+.ViewProduct button:nth-of-type(2):hover {
+  background: #f7ca00;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .ViewProduct {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ViewProduct .img {
+    flex: none;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .ViewProduct .details {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,74 @@
+body{
+    background-color: transparent;
+}
+.UserRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding: 20px;
+  
+}
+
+/* Thumbnail Image */
+.UserRegister .thumbnail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.UserRegister .thumbnail img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.UserRegister h1 {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Form Styling */
+.UserRegister form {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.UserRegister form label {
+  font-weight: 600;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Input Fields */
+.UserRegister form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+ 

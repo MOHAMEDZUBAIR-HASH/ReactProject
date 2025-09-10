@@ -1,0 +1,122 @@
+/* AdminNavbar.css */
+
+.AdminNavbar {
+  position: fixed;       /* stays on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e293b;   /* dark navy background */
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+}
+
+/* Logo */
+.AdminNavbar .logo img {
+  height: 45px;
+  width: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Search Bar */
+.AdminNavbar .search {
+  flex: 1;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.AdminNavbar .search input {
+  width: 60%;
+  min-width: 220px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.AdminNavbar .search input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+}
+
+/* Navigation Links */
+.AdminNavbar .navlink {
+  display: flex;
+  gap: 18px;
+}
+
+.AdminNavbar .navlink a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.AdminNavbar .navlink a:hover {
+  background: #3b82f6;
+  color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .AdminNavbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 15px;
+    align-items: flex-start;
+  }
+
+  .AdminNavbar .search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .AdminNavbar .search input {
+    width: 100%;
+  }
+
+  .AdminNavbar .navlink {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+.search {
+  position: relative;
+  width: 300px;
+}
+
+.search input {
+  width: 100%;
+  padding: 8px 35px 8px 10px;  /* space for icon */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;       /* stick to right inside input */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;  /* so clicking still focuses input */
+}

@@ -1,0 +1,80 @@
+/* LandingPage.css */
+
+/* Page Layout */
+.LandingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* Each Card Link */
+.LandingPage a {
+  text-decoration: none;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+  width: 220px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LandingPage a:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.LandingPage a:hover h1 {
+  color: #fff;
+}
+
+/* Images */
+.LandingPage a img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.LandingPage a:hover img {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Titles */
+.LandingPage a h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  text-transform: capitalize;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .LandingPage {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .LandingPage a {
+    width: 80%;
+    max-width: 320px;
+    padding: 25px 20px;
+  }
+
+  .LandingPage a img {
+    width: 80px;
+    height: 80px;
+  }
+}

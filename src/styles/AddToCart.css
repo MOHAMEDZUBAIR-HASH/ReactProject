@@ -1,0 +1,113 @@
+/* Main container → grid with multiple products per row */
+.viewAllProduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* responsive grid */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Each product card */
+.viewAllProduct .card {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.viewAllProduct .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Image box */
+.viewAllProduct .img {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.viewAllProduct .img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Details */
+.viewAllProduct .details {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.viewAllProduct .discribtion h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #007185;
+}
+
+.viewAllProduct .discribtion h3:hover {
+  color: #c7511f;
+}
+
+.viewAllProduct .details span {
+  font-size: 14px;
+  color: #565959;
+}
+
+.viewAllProduct .details strike {
+  color: #9d9d9d;
+}
+
+.viewAllProduct .details b {
+  color: #b12704;
+  font-weight: bold;
+}
+
+/* Buttons */
+.viewAllProduct .details button {
+  margin-top: 6px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Stock button (yellow Amazon style) */
+.viewAllProduct .details button:first-of-type {
+  background: #ffd814;
+  color: #111;
+}
+
+.viewAllProduct .details button:first-of-type:hover {
+  background: #f7ca00;
+}
+
+/* Remove button (grey Amazon style) */
+.viewAllProduct .details button:last-of-type {
+  background: #f0f2f2;
+  color: #b12704;
+  border: 1px solid #d5d9d9;
+}
+
+.viewAllProduct .details button:last-of-type:hover {
+  background: #e7e9ec;
+}
+
