@@ -76,6 +76,13 @@
       "phone": "07558186205",
       "email": "myselfadith.k@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "4fed",
+      "name": "zubair",
+      "phone": "7868028630",
+      "email": "iamswami19@gmail.com",
+      "password": "Swami@123"
     }
   ],
   "UserLogin": [
@@ -158,6 +165,15 @@
       "stock": "32",
       "pictures": "https://imgs.search.brave.com/fBYoqOu_nse_NjrM92eKcSgCxYRdXmM2APCVYemTMbw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly81Lmlt/aW1nLmNvbS9kYXRh/NS9TRUxMRVIvRGVm/YXVsdC8yMDIzLzcv/MzIxODQyMjQ5L1FO/L1NML0RZLzE4Mjg2/OTU1OS9zb255LWZy/aWRnZXMtMTI1eDEy/NS53ZWJw",
       "id": "fa03"
+    },
+    {
+      "id": "15ee",
+      "brand": "Puma",
+      "categories": "Clothing & Accessories",
+      "name": "pant",
+      "price": "2000",
+      "stock": "22",
+      "pictures": "https://imgs.search.brave.com/eL_1BhZbUx1B8va9IYCyq3Ly0D0JXAW9ZhNzOhxBPTk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFBWnkrMElFRkwu/anBn"
     }
   ],
   "Card": [
