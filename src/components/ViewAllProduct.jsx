@@ -4,7 +4,8 @@ import { MdEdit } from "react-icons/md"
 import { RiDeleteBinFill } from "react-icons/ri"
 import { toast } from 'react-toastify'
 import { Link, useNavigate } from 'react-router-dom'
-import "../styles/viewAllProducts.css"
+import "../styles/viewAllProducts.css";
+
 
 const ViewAllProduct = () => {
   const [products, setProducts] = useState([])
