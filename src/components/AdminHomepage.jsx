@@ -5,6 +5,7 @@ import AddProduct from "./AddProduct"
 import ViewAllProduct from "./ViewAllProduct"
 import ViewProduct from "./ViewProduct"
 import UpdateProduct from "./UpdateProduct"
+import Address from "./Address"
 
 
 const AdminHomepage = () => {
@@ -19,6 +20,7 @@ const AdminHomepage = () => {
         <Route path="/view-allproduct" element={<ViewAllProduct/>}></Route>
          <Route path="/View-Products/:id"  element={<ViewProduct/>} />
          <Route path="/Update-product/:id" element={<UpdateProduct/>}/>
+         <Route path="/address/id" element={<Address/>}/>
 
       </Routes>
       

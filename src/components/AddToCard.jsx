@@ -53,6 +53,7 @@ const AddToCard = () => {
               <span>Offer :15% <b>{data.price - (data.price * 15 / 100)}</b> </span><br />
               <button>Stock: {data.stock}</button><br />
               <button onClick={() => Delete(data.id)}>Remove</button>
+              <Link to="address"> address </Link>
             </div>
           </div>
         ))}

@@ -5,6 +5,8 @@ import { Routes,Route } from 'react-router-dom'
 import UserViewAllProducts from './UserViewAllProducts'
 import UserViewProduct from './UserViewProduct'
 import AddToCard from './AddToCard'
+import Buynow from './Buynow'
+import Address from './Address'
 
 const UserHomepage = () => {
   return (
@@ -14,6 +16,8 @@ const UserHomepage = () => {
           <Route path='/UserViewAllProduct'element={<UserViewAllProducts/>} />
           <Route path="UserViewProduct/:id" element={<UserViewProduct/>}  />
           <Route path='AddToCard' element={<AddToCard/>} />
+          <Route path='buynow' element={<Buynow/>}/>
+           <Route path="/address/id" element={<Address/>}/>
 
 
        </Routes>

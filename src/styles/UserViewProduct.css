@@ -1,15 +1,14 @@
-/* Container */
-/* Container for all products */
+
 .viewProducts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* multiple per row */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Each product card */
+
 .viewProducts .card {
   background: #fff;
   border: 1px solid #e6e6e6;
@@ -28,7 +27,7 @@
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
-/* Image section */
+
 .viewProducts .img {
   width: 100%;
   height: 200px;

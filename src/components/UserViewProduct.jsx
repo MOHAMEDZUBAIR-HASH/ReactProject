@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import "../styles/userViewOneProduct.css";
+import { Link } from 'react-router-dom';
 
 const UserViewProduct = () => {
   const location = useLocation();
@@ -37,7 +38,6 @@ async function addToCart(e) {
       });
       toast.success("Quantity updated in Card");
     } else {
-      // 3. Add new product
       await axios.post("http://localhost:5000/Card", {
         ...product,
         quantity: qty,
@@ -77,7 +77,7 @@ async function addToCart(e) {
         </div>
 
         <button style={{color:"black"}} onClick={() => navigate("/checkout", { state: { product, qty } })}>
-          Buy Now
+          <Link to="buynow">Buy Now</Link>
         </button>
         <button onClick={addToCart}>Add To Cart</button>
       </div>

@@ -27,6 +27,9 @@ const UserNavbar = () => {
               <div className='navlink'>
                 <Link to="/User-Homepage/UserViewAllProduct">View Products</Link>
               </div>
+              <div>
+                <Link to="/UserLogin" >Logout </Link>
+              </div>
             </div>
       
     
